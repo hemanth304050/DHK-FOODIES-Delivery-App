@@ -48,7 +48,7 @@ Right-click on the index.html file.
 
 Select "Open with Live Server".
 
-The application will open in your default browser. The URL will typically be http://127.0.0.1:5500/index.html or a similar local address.
+The application will open in your default browser. The URL will typically be (https://g.co/gemini/share/3567a288bdc0) or a similar local address.
 
 🔒 Authentication
 Username and password-based authentication.
@@ -85,7 +85,15 @@ Frontend: Manually tested across modern browsers using Google Chrome DevTools fo
 User Flows: Tested end-to-end user journeys, including signup, login, logout, adding items to the cart, and completing a mock order. Verified that user data (profile, order history) persists correctly.
 
 👨‍💻 Team Members
-[Your Name] (Lead Developer)
+Team Leader: Dhannodi Hemanth Kumar
+
+Team member: Dandu Keerthi
+
+Team member: Shaik Topivali
+
+Team member: Yakasi Keerthi
+
+Team member: Leela Siddu
 
 🎥 Demo
 The live, interactive application generated from the index.html file serves as the project's primary demo.
