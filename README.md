@@ -1,15 +1,23 @@
 # DHK-FOODIES-Delivery-App
 
-Project Title:- OrderOnTheGo: Your On-Demand Food Ordering Solution(DHK-FOODIES-Delivery-App)
+Project Title:- 
+OrderOnTheGo: Your On-Demand Food Ordering Solution(DHK-FOODIES-Delivery-App)
 Full Stack Development with MERN
+
 DHK FOODIES is a comprehensive online food ordering and delivery platform designed to streamline the process of connecting customers with their favorite restaurants. It provides a seamless user experience with real-time menu Browse, cart management, and order placement.
 
 📂 ## Project Features
+
 ✅ User Authentication: Secure login and registration for customers.
+
 ✅ Browse Restaurants and Menus: View a dynamic list of available restaurants and their detailed menus.
+
 ✅ Add to Cart Functionality: Easily add and manage food items in a shopping cart.
+
 ✅ Real-time Order Placement: A smooth and simple checkout process to place food orders.
+
 ✅ Admin Panel: A potential feature for managing restaurants, users, and orders.
+
 ✅ Responsive UI: A clean and intuitive user interface built with React.
 
 🛠️ ## Tech Stack
