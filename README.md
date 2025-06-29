@@ -1,102 +1,126 @@
 # DHK-FOODIES-Delivery-App
 
-DHK FOODIES - A Modern Food Ordering Web App
-Full Stack Development with MERN (Frontend and backend)
+Project Title:- OrderOnTheGo: Your On-Demand Food Ordering Solution(DHK-FOODIES-Delivery-App)
+Full Stack Development with MERN
+DHK FOODIES is a comprehensive online food ordering and delivery platform designed to streamline the process of connecting customers with their favorite restaurants. It provides a seamless user experience with real-time menu Browse, cart management, and order placement.
 
-DHK FOODIES is a feature-rich frontend & backend prototype for an online food ordering system. It is designed to demonstrate a seamless and intuitive user experience for discovering restaurants, filtering choices, placing orders, and managing a user profile. It offers real-time interactivity and a fully responsive design, all from a single HTML file.
+📂 ## Project Features
+✅ User Authentication: Secure login and registration for customers.
+✅ Browse Restaurants and Menus: View a dynamic list of available restaurants and their detailed menus.
+✅ Add to Cart Functionality: Easily add and manage food items in a shopping cart.
+✅ Real-time Order Placement: A smooth and simple checkout process to place food orders.
+✅ Admin Panel: A potential feature for managing restaurants, users, and orders.
+✅ Responsive UI: A clean and intuitive user interface built with React.
 
-📂 Project Features
-✅ User Authentication: Login and Signup with password visibility toggle and persistent sessions using mongodb & localStorage
+🛠️ ## Tech Stack
 
-✅ User Profile Management: Automatically generated User ID and creation timestamp viewable on a dedicated Profile page. ✅ Advanced Restaurant Filtering: Filter restaurants by dietary preference (Veg/Non-Veg) and multiple food categories. ✅ Dynamic Sorting: Sort restaurant listings by price from "Low to High" or "High to Low." ✅ Interactive Menu Browsing: View detailed restaurant menus with items organized by category. ✅ Stateful Shopping Cart: Add, remove, and update item quantities with real-time total calculation. ✅ Complete Mock Checkout Flow: A multi-step process including a delivery address form and a detailed payment modal (Card, UPI, COD). ✅ Persistent Order History: View past orders with simulated status updates, saved to the user's profile. ✅ Fully Responsive UI: Built with Tailwind CSS to ensure a seamless experience on both desktop and mobile devices.
+Frontend: React.js
 
-🛠️ Tech Stack
-Frontend: React (via CDN), Tailwind CSS (via CDN)
+Backend: Node.js, Express.js
 
-Language: JavaScript (ES6+) with JSX
+Database: MongoDB
 
-Transpiler: Babel (via CDN)
+📁 ## Project Folder Structure
 
-Backend (Simulated): Browser localStorage acts as a mock database and mongodb.
+├── client      # React Frontend
+├── server      # Express Backend API
+└── seeder.js   # Script to import initial data
+🚀 ## Setup Instructions
 
-Planned Full Stack: MERN (MongoDB, Express.js, React, Node.js)
-
-📁 Project Folder Structure
-The entire application is self-contained within a single file for maximum portability and ease of use, eliminating the need for complex builds or installations.
-
-index.html # Contains all HTML, CSS, and JavaScript (React) code.
-
-🚀 Setup Instructions
 Prerequisites
+Node.js
 
-A modern web browser (e.g., Google Chrome, Firefox)
+NPM
 
-Visual Studio Code (or any code editor)
-
-The Live Server extension for VS Code is highly recommended.
+MongoDB
 
 Installation
+Bash
 
-Save the complete application code as index.html on your local machine.
+# Clone the repository
+git clone https://github.com/your-username/dhk-foodies-app.git
 
-No npm install or other package manager steps are required.
+# Install backend dependencies
+cd server
+npm install
 
-🖥️ Running the Application
-Open the project folder in Visual Studio Code.
+# Install frontend dependencies
+cd ../client
+npm install
+Database Seeding
+This project requires initial data (restaurants, menus) to function correctly. A seeder script has been provided to populate the database.
 
-Right-click on the index.html file.
+Bash
 
-Select "Open with Live Server".
+# From the root directory, navigate to the server
+cd server
 
-The application will open in your default browser. The URL will typically be (https://g.co/gemini/share/3567a288bdc0) or a similar local address.
+# Run the seeder script to import data
+node seeder.js
+🖥️ ## Running the Application
+First, ensure your local MongoDB server is running. Then, open two separate terminals:
 
-🔒 Authentication
-Username and password-based authentication.
+Bash
 
-User session is maintained in localStorage, allowing users to stay logged in between browser sessions on the same device.
+# In Terminal 1: Start the Backend
+cd server
+npm start
 
-📋 API Endpoints (Simulated)
-The application uses browser localStorage to simulate a backend API.
-| Method | Simulated Endpoint | Description |
-| :--- | :--- | :--- |
-| POST | /api/users/register | Creates a new user object and saves it to localStorage. |
-| POST | /api/users/login | Validates user credentials against localStorage. |
-| GET | /api/restaurants | Retrieves restaurant data from a mock object in the code. |
-| POST | /api/orders | Creates a new order and saves it to the user's history in localStorage. |
+# In Terminal 2: Start the Frontend
+cd client
+npm start
+The application will be available at the following locations:
 
-🖥️ User Interfaces
-Login & Registration Modal
+Frontend: http://localhost:3000
 
-User Profile Page
+Backend API: http://localhost:5000
 
-Restaurant Listing Page with Filters
+🔒 ## Authentication
 
-Restaurant Menu Page
+Email & Password based authentication for users.
 
-Shopping Cart Modal
+Planned future enhancement: JWT Security for API endpoints.
 
-Checkout Flow (Address & Payment)
+📋 ## API Endpoints
+| Method | Endpoint                    | Description                       |
+| :---   | :---                        | :---                              |
+| POST   | /api/users/register         | Register a new user               |
+| POST   | /api/users/login            | Login for users                   |
+| GET    | /api/products               | Fetch list of all food/restaurants|
+| POST   | /api/orders                 | Place a new food order            |
 
-Order Confirmation & History Pages
+🖥️ ## User Interfaces
 
-🧪 Testing
-Frontend: Manually tested across modern browsers using Google Chrome DevTools for UI consistency, responsiveness, and functionality.
+Login & Registration Pages
 
-User Flows: Tested end-to-end user journeys, including signup, login, logout, adding items to the cart, and completing a mock order. Verified that user data (profile, order history) persists correctly.
+Home Page with Restaurant Listings
 
-👨‍💻 Team Members
-Team Leader: Dhannodi Hemanth Kumar
+Restaurant Menu / Product Details Page
 
-Team member: Dandu Keerthi
+Shopping Cart & Checkout Page
 
-Team member: Shaik Topivali
+User Profile / Order History Page
 
-Team member: Yakasi Keerthi
+🧪 ## Testing
 
-Team member: Leela Siddu
+Backend APIs can be tested using tools like Postman.
 
-🎥 Demo
-The live, interactive application generated from the index.html file serves as the project's primary demo.
+Frontend components and user flows tested across modern browsers using Chrome DevTools.
 
-📌 Note
-This project is a comprehensive frontend prototype designed for academic and learning purposes, focusing on core React concepts, state management, and responsive design within a single-file architecture.
+👨‍💻 ## Team Members
+
+1.Team Leader: Dhannodi Hemanth Kumar
+
+2.Team member: Dandu Keerthi
+
+3.Team member: Shaik Topivali
+
+4.Team member: Yakasi Keerthi
+
+6.Team member: Leela Siddu
+🎥 ## Demo
+
+A video demonstration of the project can be placed in a Video Demo folder within the project repository.
+
+📌 ## Note
+This project is developed for academic and learning purposes, focusing on the core principles of MERN stack development and application structure.
