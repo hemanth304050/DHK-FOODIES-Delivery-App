@@ -47,9 +47,6 @@ MongoDB
 Installation
 Bash
 
-# Clone the repository
-git clone https://github.com/your-username/dhk-foodies-app.git
-
 # Install backend dependencies
 cd server
 npm install
