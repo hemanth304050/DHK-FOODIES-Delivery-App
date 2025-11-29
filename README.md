@@ -35,7 +35,7 @@ Database: MongoDB
 ├── client      # React Frontend
 ├── server      # Express Backend API
 └── seeder.js   # Script to import initial data
-🚀 Setup Instructions
+🚀 ## Setup Instructions
 
 Prerequisites
 Node.js
@@ -62,9 +62,9 @@ Bash
 # From the root directory, navigate to the server
 cd server
 
-# Run the seeder script to import data
-node seeder.js
-🖥️ Running the Application
+## Run the seeder script to import data
+node seeder.js.
+## 🖥️ Running the Application
 First, ensure your local MongoDB server is running. Then, open two separate terminals:
 
 Bash
@@ -82,7 +82,9 @@ Frontend: http://localhost:3000
 
 Backend API: http://localhost:5000
 
-🔒 ## Authentication
+## Deployed: https://dhkfoodies.netlify.app/
+
+## 🔒 Authentication
 
 Email & Password based authentication for users.
 
