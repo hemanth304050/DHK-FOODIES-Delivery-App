@@ -1,14 +1,14 @@
-# DHK-FOODIES-Delivery-App
+## DHK-FOODIES-Delivery-App
 
-Project Title:- 
+# Project Title:- 
 
-OrderOnTheGo: Your On-Demand Food Ordering Solution(DHK-FOODIES-Delivery-App)
+## OrderOnTheGo: Your On-Demand Food Ordering Solution(DHK-FOODIES-Delivery-App)
 
 Full Stack Development with MERN.
 
 DHK FOODIES is a comprehensive online food ordering and delivery platform designed to streamline the process of connecting customers with their favorite restaurants. It provides a seamless user experience with real-time menu Browse, cart management, and order placement.
 
-📂 Project Features
+## 📂 Project Features
 
 ✅ User Authentication: Secure login and registration for customers.
 
@@ -22,7 +22,7 @@ DHK FOODIES is a comprehensive online food ordering and delivery platform design
 
 ✅ Responsive UI: A clean and intuitive user interface built with React.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Frontend: React.js
 
@@ -32,10 +32,11 @@ Database: MongoDB
 
 📁 Project Folder Structure
 
-├── client      # React Frontend
-├── server      # Express Backend API
-└── seeder.js   # Script to import initial data
-🚀 ## Setup Instructions
+
+## ├── client      # React Frontend
+## ├── server      # Express Backend API
+## └── seeder.js   # Script to import initial data
+## 🚀 Setup Instructions
 
 Prerequisites
 Node.js
@@ -47,11 +48,11 @@ MongoDB
 Installation
 Bash
 
-# Install backend dependencies
+## Install backend dependencies
 cd server
 npm install
 
-# Install frontend dependencies
+## Install frontend dependencies
 cd ../client
 npm install
 Database Seeding
@@ -59,7 +60,7 @@ This project requires initial data (restaurants, menus) to function correctly. A
 
 Bash
 
-# From the root directory, navigate to the server
+## From the root directory, navigate to the server
 cd server
 
 ## Run the seeder script to import data
@@ -69,11 +70,11 @@ First, ensure your local MongoDB server is running. Then, open two separate term
 
 Bash
 
-# In Terminal 1: Start the Backend
+## In Terminal 1: Start the Backend
 cd server
 npm start
 
-# In Terminal 2: Start the Frontend
+## In Terminal 2: Start the Frontend
 cd client
 npm start
 The application will be available at the following locations:
@@ -90,7 +91,7 @@ Email & Password based authentication for users.
 
 Planned future enhancement: JWT Security for API endpoints.
 
-📋 ## API Endpoints
+## 📋 API Endpoints
 | Method | Endpoint                    | Description                       |
 | :---   | :---                        | :---                              |
 | POST   | /api/users/register         | Register a new user               |
@@ -98,7 +99,7 @@ Planned future enhancement: JWT Security for API endpoints.
 | GET    | /api/products               | Fetch list of all food/restaurants|
 | POST   | /api/orders                 | Place a new food order            |
 
-🖥️ ## User Interfaces
+## 🖥️ User Interfaces
 
 Login & Registration Pages
 
@@ -110,13 +111,13 @@ Shopping Cart & Checkout Page
 
 User Profile / Order History Page
 
-🧪 ## Testing
+## 🧪 Testing
 
 Backend APIs can be tested using tools like Postman.
 
 Frontend components and user flows tested across modern browsers using Chrome DevTools.
 
-👨‍💻 ## Team Members
+## 👨‍💻 Team Members
 
 1.Team Leader: Dhannodi Hemanth Kumar
 
@@ -127,10 +128,10 @@ Frontend components and user flows tested across modern browsers using Chrome De
 4.Team member: Yakasi Keerthi
 
 6.Team member: Leela Siddu
-🎥 ## Demo
+## 🎥 Demo
 
 A video demonstration of the project can be placed in a Video Demo folder within the project repository.
 
-📌 ## Note
+## 📌 Note
 This project is developed for academic and learning purposes, focusing on the core principles of MERN stack development and application structure.
 ## Link --> https://dhkfoodies.netlify.app/
