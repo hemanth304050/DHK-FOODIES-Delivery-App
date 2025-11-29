@@ -8,7 +8,7 @@ Full Stack Development with MERN.
 
 DHK FOODIES is a comprehensive online food ordering and delivery platform designed to streamline the process of connecting customers with their favorite restaurants. It provides a seamless user experience with real-time menu Browse, cart management, and order placement.
 
-📂 ## Project Features
+📂 Project Features
 
 ✅ User Authentication: Secure login and registration for customers.
 
@@ -22,7 +22,7 @@ DHK FOODIES is a comprehensive online food ordering and delivery platform design
 
 ✅ Responsive UI: A clean and intuitive user interface built with React.
 
-🛠️ ## Tech Stack
+🛠️ Tech Stack
 
 Frontend: React.js
 
@@ -30,12 +30,12 @@ Backend: Node.js, Express.js
 
 Database: MongoDB
 
-📁 ## Project Folder Structure
+📁 Project Folder Structure
 
 ├── client      # React Frontend
 ├── server      # Express Backend API
 └── seeder.js   # Script to import initial data
-🚀 ## Setup Instructions
+🚀 Setup Instructions
 
 Prerequisites
 Node.js
@@ -64,7 +64,7 @@ cd server
 
 # Run the seeder script to import data
 node seeder.js
-🖥️ ## Running the Application
+🖥️ Running the Application
 First, ensure your local MongoDB server is running. Then, open two separate terminals:
 
 Bash
