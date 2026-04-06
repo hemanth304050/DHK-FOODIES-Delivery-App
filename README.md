@@ -134,4 +134,4 @@ A video demonstration of the project can be placed in a Video Demo folder within
 
 ## 📌 Note
 This project is developed for academic and learning purposes, focusing on the core principles of MERN stack development and application structure.
-## Link --> https://dhkfoodies.netlify.app/
+## Link --> https://dhkapk.netlify.app/
