@@ -83,7 +83,7 @@ Frontend: http://localhost:3000
 
 Backend API: http://localhost:5000
 
-## Deployed: https://dhkfoodies.netlify.app/
+## Deployed: https://dhkapk.netlify.app/
 
 ## 🔒 Authentication
 
