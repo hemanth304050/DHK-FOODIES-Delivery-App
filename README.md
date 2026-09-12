@@ -1,3 +1,21 @@
+<div align="center">
+
+
+
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=DHK%20FOODIES&fontSize=50&fontColor=fff&animation=fadeIn&desc=Your%20On-Demand%20Food%20Ordering%20Solution&descAlignY=60&descSize=18)
+
+
+
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=24&pause=1000&color=FF5733&center=true&vCenter=true&width=600&lines=Full+Stack+MERN+Food+Delivery+App;Browse+%F0%9F%8D%94+Order+%F0%9F%9B%92+Enjoy+%F0%9F%98%8B;Built+by+Hemanth+%26+Team" alt="Typing SVG" />
+
+
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer)
+
+
+
+</div>
+
 # 🍔 DHK-FOODIES-Delivery-App
 
 > 🛵 **OrderOnTheGo: Your On-Demand Food Ordering Solution** — a full-stack MERN food ordering and delivery platform that connects customers with their favorite restaurants.
